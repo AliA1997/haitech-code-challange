@@ -34,7 +34,7 @@ class Home extends Component {
         if(!loading) {
             return (
                 <div className='home container'>
-                    { setTimeout(() => dispatch(donePostCreated()), 100000000)}
+                    { setTimeout(() => dispatch(donePostCreated()), 5000)}
                     {postCreated ? <Popup {...postCreated} /> : null}
                     <div className='posts-div'>
                         {posts.length ? posts.map((post, i) => i < 10 && <PostCard key={post.id} {...post} />) : null}
