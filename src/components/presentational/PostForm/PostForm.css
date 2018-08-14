@@ -1,0 +1,9 @@
+.product-form {
+    grid-column: 2/2;
+    border: 2px solid indigo;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.product-form > * {
+    grid-row: auto;
+}

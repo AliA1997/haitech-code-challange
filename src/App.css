@@ -1,0 +1,23 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  padding-top: 10%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.container > * {
+  grid-column: 2/2;
+}

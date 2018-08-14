@@ -1,0 +1,13 @@
+.loader-div {
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    right: 35%;
+    width: 15em;
+    height: 15em;
+}
+
+.loader-div > * {
+    height: 100% !important;
+    width: 100% !important;
+}

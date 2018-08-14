@@ -1,0 +1,6 @@
+.user-page.container {
+    padding-top: 10%;
+}
+.user-page-company-info {
+    transition: visibility ease-in-out 1s; 
+}

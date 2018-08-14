@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-div  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 90%;
+    padding: 0.5%;
+}
+.navbar-div > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    width: 100%;
+    padding: 0.5%;
+    font-weight: 500 !important;
+    /* border: 2px solid #fff !important; */
+}
+.navbar-div > .login-div {
+    padding: 0 !important;
+    display: grid;
+    grid-template-columns: 33% 66%;
+    width: 15em !important;
+}
+.navbar-div > .login-div > * {
+    color: #fff !important;
+    grid-column: auto;
+    width: 100%;
+}
+.login-div > *:first-child {
+    grid-column: 1/1;
+}
+
+.login-div > *:nth-child(2) > * {
+    color: #fff !important;
+}
+.navbar-div > .link:hover {
+    transition: background-color 1s;
+    background-color: white !important;
+}
+.navbar-div > .link > * {
+    color: #fff !important;
+    /* border: 2px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    width: 100%;
+}
+.navbar-div > * > *:hover {
+    color: indigo !important;
+    font-weight: 500;
+}
+.navbar-div > * > * > * {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,23 @@
+.gallery.container {
+    width: 100%;
+    padding-top: 10%;
+}
+.gallery-card-div {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.gallery-card-div > a {
+    height: 100%;
+}
+.gallery-card {
+    grid-column: auto;
+    margin: 1% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.gallery-card > * > *{
+    font-size: 3em !important;
+}

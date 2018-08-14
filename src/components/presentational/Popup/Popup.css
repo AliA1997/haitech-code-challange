@@ -1,0 +1,17 @@
+.popup-div {
+    position: absolute;
+    top: 40%;
+    height: 33%;
+    width: 33% !important;
+    left: 33%;
+    right: 33%;
+    background: lightgray;
+    color: black;
+    z-index: 4;
+} 
+
+.popup-div > img {
+    height: 30%;
+    width: 50%;
+    border-radius: 50%;
+}

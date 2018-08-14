@@ -1,0 +1,14 @@
+.user-card {
+    text-align: center;
+    opacity: 0.9;
+    padding: 1%;
+    margin: 1%;
+}
+.user-link-div {
+    font-size: 1.2em !important;
+    width: 100%;
+}
+.user-card:hover {
+    transition: background-color 1s;
+    background-color: lightgray;
+}

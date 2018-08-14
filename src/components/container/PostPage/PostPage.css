@@ -1,0 +1,16 @@
+.post-page.container {
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.post-page.container > * {
+    grid-row: auto;
+}
+.post-page-header {
+    font-size: 2em !important;
+    color: black !important;
+}
+.post-page-body {
+}
