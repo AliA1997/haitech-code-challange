@@ -18,7 +18,7 @@ module.exports = {
         axios.post(`https://jsonplaceholder.typicode.com/comments?postId=${id}`, { postId: id, body, name, username, email })
         .then(result => {
             comments.push(result.data);
-            res.status(200).json({comments});
+            res.json({comments});
         }).catch(err => console.log('GEt Comments Error---------', err));
     },
     updateComments: (req, res) => {

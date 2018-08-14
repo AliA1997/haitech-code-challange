@@ -35,7 +35,7 @@ module.exports = {
         console.log(req.body);
         axios.post('https://jsonplaceholder.typicode.com/posts', { userId: id, title, body: description}).then(result => {
             console.log('result----------', result.data);
-            res.status(200).json({post: result.data});
+            res.json({post: result.data});
         }).catch(err => console.log('Backend Create Posts Error----------', err));
         
     },
